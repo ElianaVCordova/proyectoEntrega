@@ -1,0 +1,371 @@
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.hola{
+    display: flex;
+    flex-direction: row;
+    color:rgb(6, 163, 19);
+    text-decoration: none;
+    padding-top: 7px;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 7px;
+    background-color: rgb(71, 171, 152);
+    font-size:large;
+    font-weight: bold;
+    font-family: 'Indie Flower', curisive;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    width: auto;
+} 
+.liMenu{
+    border-right: 3px rgb(55, 233, 177) solid;
+}
+.logo{
+    width: 50%;
+    height: 50%;
+}
+body{
+    background-color: rgb(226, 255, 146);
+}
+h1{
+    color: rgb(45, 148, 86);
+    font-size:larger;
+    font-weight: bold;
+    font-style: normal;
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    line-height: unset;
+    background-color: yellowgreen;
+    width: fit-content;
+    margin-left: auto; 
+    margin-right: auto;
+    border: 2px rgb(45, 148, 86) solid;
+    padding: 5px; 
+}
+h2{
+    color: rgb(226, 52, 110);
+    font-size:large;
+    font-weight: normal;
+    font-style: initial;
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    line-height: unset;
+}
+p{
+    color: rgb(180, 70, 94);
+    text-align: center;
+}
+.bienvenida{
+    color: yellowgreen;
+    font-size:xx-large;
+    font-weight: bolder;
+    font-style: initial;
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    border-bottom: 3px darkgreen solid;
+    border-top: 3px darkgreen solid;
+}
+.mainPrincipal{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 2fr 2fr;
+    grid-template-areas: "area1 area3"
+                         "area2 area3";
+    justify-items: center;
+    background-image: url(../imagenes/losmestiz2.jpg.png);
+    width: 100%;
+    height: 500px;
+}
+.ultimapubli{
+    grid-area: area1;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(172, 243, 186, 0.81);
+    font-family: 'Indie Flower', cursive; 
+    color: darkgreen;  
+    width: 300px;
+    height: 150px;
+    border: darkgreen 1px solid;
+    margin: 30px;
+}
+.lugares{
+    grid-area: area2;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(172, 243, 186, 0.81);
+    font-family: 'Indie Flower', cursive;
+    color: darkgreen;
+    width: 300px;
+    height: 150px;
+    border:darkgreen 1px solid;
+    margin: 30px;
+}
+.texto1{
+    width: 100px;
+    height: 120px; 
+    font-size: xx-small;
+    text-align: center;
+    padding: 3px;
+}
+.texto2{
+    width: 100px;
+    height: 120px; 
+    font-size: xx-small;
+    text-align: center;
+    padding: 3px;
+
+}
+.img1{
+    width: 30%;
+    height: 30%;
+    padding-top: 50px;
+    padding-right: 10px;
+}
+.img2{
+    width: 30%;
+    height: 30%;
+    padding-top: 50px;
+    padding-right: 10px;
+
+}
+.publicacion{
+    grid-area: area3;
+    background-color: rgba(172, 243, 186, 0.81);
+    font-family: 'Indie Flower', cursive;
+    font-size: medium;
+    color: darkgreen;
+    width: 200px;
+    height: 400px;
+    border:darkgreen 1px solid;
+    font-size: smaller;
+    
+}
+footer{
+    color: darkgreen;
+    font-size:medium;
+    font-style: initial;
+    font-family: 'Benne', serif;
+    text-align:left;
+    line-height: unset;
+    background: linear-gradient(to bottom, rgb(130, 223, 159), white);
+    border: 2px darkgreen solid ;
+   }
+.tituloproducto{
+    font-family: 'Benne', serif;
+    color:red;
+    background-color: rgb(240, 255, 254);
+    border:none;
+}
+.hacer{
+    font-family: 'Benne', serif;
+    color:rgb(146, 99, 99);
+    background-color: rgb(240, 255, 254);
+    display: block;
+    margin:5px;
+    width: fit-content;
+    height:fit-content;
+
+}
+.manosalaobraimg{
+    background-image: url(../imagenes/manosalaobra2.png);
+    align-content: center;
+    width: 100%;
+    height: 800px;
+}
+form{
+    font-family: 'Benne', serif;
+    background-color: rgb(245, 214, 158);
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+    border:rgb(147, 170, 189) 3PX groove ;
+    border-radius: 5px;
+}
+
+.nombreform:hover{
+    transform: scalex(3);
+    border:none 2PX solid ;
+
+}
+.emailform:hover{
+    transform: scalex(3);
+    border:none 2PX solid ;
+}
+
+.tablaagenda{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style:oblique ;
+    margin: auto;
+    padding: 3px;
+}
+.agendaimg{
+    background-image: url(../imagenes/agenda2.png);
+    align-content: center;
+    width: 100%;
+    height: 800px;
+}
+.saludimg{
+    background-image:url(../imagenes/salud.png) ;
+    background-position: center;
+    width: 100%;
+    height: 800px;
+}
+    
+.tablaconocenos{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: 2fr 2fr 2fr;
+    grid-template-areas: "area1 area2 area3"
+                         "area4 area5 area6"
+                         "area7 area8 area9";
+    justify-items: center;
+    width: 100%;
+    height: 800px;
+    padding: 10px;
+    font-family: monospace;
+    font-style:oblique ;
+    margin: auto;
+    padding: 1px;
+}
+.hum1{
+    grid-area: area1;
+    background-color: cadetblue;
+    color: black;
+    width: fit-content;
+    height:fit-content;
+    text-align: center;
+    padding: 7px;
+}
+.hum2{
+    grid-area: area2;
+    background-color: cadetblue;
+    color: black;
+    width: fit-content;
+    height:fit-content;
+    text-align: center;
+    padding: 7px;
+}
+.can1{
+    grid-area: area3;
+    background-color: cadetblue;
+    color: black;
+    width: fit-content;
+    height:fit-content;
+    text-align: center;
+    padding: 7px;
+}
+.can2{
+    grid-area: area4;
+    background-color: cadetblue;
+    color: black;
+    width: fit-content;
+    height:fit-content;
+    text-align: center;
+    padding: 7px;
+}
+.can3{
+    grid-area: area5;
+    background-color: cadetblue;
+    color: black;
+    width: fit-content;
+    height:fit-content;
+    text-align: center;
+    padding: 7px;
+}
+.can4{
+    grid-area: area6;
+    background-color: cadetblue;
+    color: black;
+    width: fit-content;
+    height:fit-content;
+    text-align: center;
+    padding: 7px;
+}
+.can5{
+    grid-area: area8;
+    background-color: cadetblue;
+    color: black;
+    width: fit-content;
+    height:fit-content;
+    text-align: center;
+    padding: 7px;
+}
+.todos{
+    width: 180px;
+    height: 180px;
+    animation-name: integrantes;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes integrantes{
+    0%{
+        background-image: url(../imagenes/hum1.PNG);
+        background-repeat:no-repeat;
+        background-size:contain;    
+       	transform: rotate(0deg);
+    }
+    16%{
+        background-image: url(../imagenes/hum2.PNG);
+        background-repeat:no-repeat;
+        background-size:contain;
+        transform: rotate(10deg);
+    }
+    32%{
+        background-image: url(../imagenes/theo.PNG);
+        background-repeat:no-repeat;
+        background-size:contain;
+        transform: rotate(20deg);
+    }
+    48%{
+        background-image: url(../imagenes/sakura.PNG);
+        background-repeat:no-repeat;
+        background-size:contain;
+        transform: rotate(30deg);
+    }
+    64%{
+        background-image: url(../imagenes/luna.PNG);
+        background-repeat:no-repeat;
+        background-size:contain;
+        transform:rotate(40deg);
+    }
+
+    80%{
+        background-image: url(../imagenes/rama.PNG);
+        background-repeat:no-repeat;
+        background-size:contain;
+        transform:rotate(30deg);
+    }
+    100%{
+        background-image: url(../imagenes/mora.PNG);
+        background-repeat:no-repeat;
+        background-size:contain;
+        transform:rotate(20deg);
+    }
+}
+
+
+
+.producto{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    grid-template-rows: 2fr 2fr 2fr;
+    grid-auto-flow: row;
+    justify-items: center;
+    width: 100%;
+    height: 800px;
+    padding: 10px;
+}
+.compra{
+    width: 45%;
+    height: 45%;
+}

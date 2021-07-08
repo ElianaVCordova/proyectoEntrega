@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Blog de canes y humanos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" a href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Benne&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+         <!-- menu en lista como pide la entrega-->   
+         <nav>
+            <ul class="hola">
+                <li class="liMenu"><a href="manos_a_la_obra.html">Manos a la obra</a></li>
+                <li class="liMenu"><a href="conocenos.html">Conocenos</a></li>
+                <li class="liMenu"><a href="productos.html">Productos</a></li>  
+                <li class="liMenu"><a href="../index.html"><img class="logo" src="../imagenes/canesyhumanos.jpg" alt="logo"></a></li>
+                <li class="liMenu"><a href="agenda.html">Agenda</a></li>
+                <li class="liMenu"><a href="salud.html">Salud</a></li>
+                <li class="liMenu"><a href="publicamosemprendi.html">Publicamos tu emprendimiento</a></li>
+            </ul>
+        </nav>
+    </header>    
+    <h2>¿Queres que difundamos tu emprendimiento? ¿Queres dejarnos tu comentario?</h2>
+    <form ><!--aplique bootstraps-->
+        Tipo de mensaje
+        <br>
+        <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+            <input type="radio" class="btn-check" name="btnGroupRadio" id="btnRadio1" autocomplete="off" checked="">
+            <label class="btn btn-outline-primary" for="btnRadio1">Comentario</label>
+          
+            <input type="radio" class="btn-check" name="btnGroupRadio" id="btnRadio2" autocomplete="off">
+            <label class="btn btn-outline-primary" for="btnRadio2">Emprendimiento</label>
+        </div>  
+        <br>
+        <br>
+        Ingrese nombre<input class="nombreform form-control" id="floatingTextarea" type="text">
+        <br>
+        Ingrese E mail<input class="emailform form-control" id="floatingTextarea" type="email">
+        <br>
+        <div class="btn-group dropend">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+              Tipo de Usuario:
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item">Emprendedor</a>
+              <a class="dropdown-item">Persona</a>
+            </div>
+        </div>
+        <br>
+        <br>
+        Dejanos tu mensaje
+        <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea" style="height: 100px"></textarea>
+            <label for="floatingTextarea"></label>
+          </div>
+        <br>
+        <br>
+        <button type="submit" class="btn btn-outline-primary">Enviar Formulario</button>
+        <button type="reset" class="btn btn-outline-primary">Resetear Formulario</button>
+    </form>
+    <footer>comentarios de visitas: Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>nesciunt quae praesentium placeat beatae voluptates saepe cupiditate reiciendis aspernatur quod sed voluptas nemo reprehenderit molestiae alias, necessitatibus, est nulla odio.</footer>
+
+</body>
+</html>

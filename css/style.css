@@ -8,37 +8,41 @@ a{
 .hola{
     display: flex;
     flex-direction: row;
-    color:rgb(6, 163, 19);
+    color: seashell;
     text-decoration: none;
     padding-top: 7px;
     padding-left: 30px;
     padding-top: 30px;
     padding-bottom: 7px;
-    background-color: rgb(71, 171, 152);
+    background-color: rgb(47, 96, 72);
     font-size:large;
     font-weight: bold;
-    font-family: 'Indie Flower', curisive;
+    font-family: 'Benne', serif;
     text-align: center;
     align-items: center;
     justify-content: space-evenly;
     width: auto;
+    list-style: none;
 } 
 .liMenu{
-    border-right: 3px rgb(55, 233, 177) solid;
+    border-right: 3px seashell solid;
+    text-decoration: none;
+    list-style: none;
 }
 .logo{
     width: 50%;
     height: 50%;
 }
 body{
-    background-color: rgb(226, 255, 146);
+    background-color: rgb(9, 124, 107);
+    height: auto;
 }
 h1{
-    color: rgb(45, 148, 86);
+    color: rgb(221, 231, 221);
     font-size:larger;
     font-weight: bold;
     font-style: normal;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Benne', serif;
     text-align: center;
     line-height: unset;
     background-color: yellowgreen;
@@ -49,24 +53,24 @@ h1{
     padding: 5px; 
 }
 h2{
-    color: rgb(226, 52, 110);
+    color: rgb(221, 231, 221);
     font-size:large;
     font-weight: normal;
     font-style: initial;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Benne', serif;
     text-align: center;
     line-height: unset;
 }
 p{
-    color: rgb(180, 70, 94);
+    color: seashell;
     text-align: center;
 }
 .bienvenida{
-    color: yellowgreen;
+    color: seashell;
     font-size:xx-large;
     font-weight: bolder;
     font-style: initial;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Benne', serif;
     text-align: center;
     border-bottom: 3px darkgreen solid;
     border-top: 3px darkgreen solid;
@@ -86,9 +90,9 @@ p{
     grid-area: area1;
     display: flex;
     flex-direction: row;
-    background-color: rgba(172, 243, 186, 0.81);
-    font-family: 'Indie Flower', cursive; 
-    color: darkgreen;  
+    background-color: rgb(103, 199, 162);
+    font-family: 'Benne', serif; 
+    color: seashell;  
     width: 300px;
     height: 150px;
     border: darkgreen 1px solid;
@@ -98,9 +102,9 @@ p{
     grid-area: area2;
     display: flex;
     flex-direction: row;
-    background-color: rgba(172, 243, 186, 0.81);
-    font-family: 'Indie Flower', cursive;
-    color: darkgreen;
+    background-color: rgb(103, 199, 162);
+    font-family: 'Benne', serif;
+    color: seashell;
     width: 300px;
     height: 150px;
     border:darkgreen 1px solid;
@@ -112,6 +116,7 @@ p{
     font-size: xx-small;
     text-align: center;
     padding: 3px;
+    margin-bottom: auto;
 }
 .texto2{
     width: 100px;
@@ -119,6 +124,7 @@ p{
     font-size: xx-small;
     text-align: center;
     padding: 3px;
+    margin-bottom: auto;
 
 }
 .img1{
@@ -136,24 +142,26 @@ p{
 }
 .publicacion{
     grid-area: area3;
-    background-color: rgba(172, 243, 186, 0.81);
-    font-family: 'Indie Flower', cursive;
+    background-color: rgb(103, 199, 162);
+    font-family: 'Benne', serif;
     font-size: medium;
-    color: darkgreen;
+    color: seashell;
     width: 200px;
     height: 400px;
     border:darkgreen 1px solid;
     font-size: smaller;
+    margin-bottom: auto;
+    text-align: center;
     
 }
 footer{
-    color: darkgreen;
+    color: seashell;
     font-size:medium;
     font-style: initial;
     font-family: 'Benne', serif;
     text-align:left;
     line-height: unset;
-    background: linear-gradient(to bottom, rgb(130, 223, 159), white);
+    background: linear-gradient(to bottom, rgb(47, 96, 72), white);
     border: 2px darkgreen solid ;
    }
 .tituloproducto{
@@ -218,7 +226,8 @@ form{
     background-image:url(../imagenes/salud.png) ;
     background-position: center;
     width: 100%;
-    height: 800px;
+    height: 100%;
+    margin-bottom: 5px;
 }
     
 .tablaconocenos{

@@ -1,0 +1,65 @@
+/** variables fuentes y paleta principal**/
+.notassalud {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+
+.contenedor {
+  width: 255px;
+  height: 500px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #8ac5cc;
+  border-radius: 15px; }
+  .contenedor .card__header {
+    width: 255px;
+    height: 205px;
+    margin: unset; }
+    .contenedor .card__header .card__figure {
+      display: flex;
+      width: 100%;
+      height: 100%;
+      align-items: stretch;
+      margin: 7px;
+      margin-left: 0px;
+      justify-content: space-evenly; }
+      .contenedor .card__header .card__figure .card__image {
+        border-radius: 15px; }
+  .contenedor .card__body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-small;
+    font-weight: lighter;
+    margin: 5px;
+    width: 225px;
+    height: 250px; }
+    .contenedor .card__body .card__titulo {
+      color: #3d6f57;
+      font-style: italic;
+      font-weight: bold;
+      text-align: center;
+      width: 100%;
+      height: auto; }
+      .contenedor .card__body .card__titulo .card__intro {
+        font-family: "Benne", serif;
+        color: #7fa339;
+        font-size: xx-small;
+        font-weight: lighter;
+        color: #7fa339;
+        text-align: center;
+        width: 100%;
+        height: 150px;
+        margin-bottom: 3px; }
+  .contenedor .card__footer {
+    width: auto;
+    height: 50px;
+    border: none;
+    background: unset; }
+    .contenedor .card__footer .button {
+      border-radius: 50px;
+      background-color: #2f6048;
+      color: seashell;
+      font-family: "Benne", serif; }

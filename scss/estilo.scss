@@ -1,0 +1,82 @@
+/** variables fuentes y paleta principal**/
+$backgroun_fondos_body: rgb(9, 124, 107);
+$backgroun_fondos_nav_footer: rgb(47, 96, 72);
+$font_color: rgb(127, 163, 57);
+$backgroun_fondos_section_aside: rgb(103, 199, 162);
+$font_pricipal: 'Benne', serif;
+
+.notassalud{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.contenedor{
+    width: 255px;
+    height: 500px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(138, 197, 204);
+    border-radius: 15px;
+    .card__header{     
+          width: 255px;
+          height: 205px;
+          margin: unset;
+        .card__figure{
+            display: flex;
+            width: 100%;
+            height: 100%;
+            align-items: stretch;
+            margin: 7px;
+            margin-left: 0px;
+            justify-content: space-evenly;
+            .card__image{
+                border-radius: 15px;
+            }
+        }
+    } 
+    .card__body{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: xx-small;
+        font-weight: lighter;
+        margin: 5px;
+        width: 225px;
+        height: 250px;
+        .card__titulo{
+            color: rgb(61, 111, 87);
+            font-style: italic;
+            font-weight: bold;
+            text-align: center;
+            width: 100%;
+            height: auto;
+            .card__intro{
+                font-family: $font_pricipal;
+                color: $font_color;
+                font-size: xx-small;
+                font-weight: lighter;
+                color: $font_color;
+                text-align: center;
+                width: 100%;
+                height: 150px;
+                margin-bottom: 3px;
+            }
+        }
+    } 
+    .card__footer{
+        width: auto;
+        height: 50px;
+        border: none;
+        background: unset;
+        .button{
+            border-radius: 50px;
+            background-color: $backgroun_fondos_nav_footer;
+            color: seashell;
+            font-family: $font_pricipal;
+
+        }
+    }
+}
+

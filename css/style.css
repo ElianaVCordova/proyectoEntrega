@@ -1,4 +1,19 @@
-
+@media screen and (min-width: 600px) {
+    body{
+        background-color:rgb(9, 124, 107);
+    }    
+  }
+  @media screen and (min-width: 800px) {
+      body{
+        background-color:rgb(9, 124, 107);
+   }    
+    }
+    @media screen and (min-width: 1200px) {
+      body{
+          background-color:rgb(9, 124, 107);
+      }    
+    }
+/*Menu*/    
 ul{
     list-style: none;
 }
@@ -22,21 +37,35 @@ a{
     align-items: center;
     justify-content: space-evenly;
     width: auto;
-    list-style: none;
 } 
 .liMenu{
-    border-right: 3px seashell solid;
-    text-decoration: none;
-    list-style: none;
+    border-top: 1px seashell solid;
+    border-radius: 3px;
+}
+.linkcolor{
+    color: seashell;
 }
 .logo{
     width: 50%;
     height: 50%;
 }
+/*fin menu*/
 body{
     background-color: rgb(9, 124, 107);
     height: auto;
 }
+footer{
+    color: seashell;
+    font-size:medium;
+    font-style: initial;
+    font-family: 'Benne', serif;
+    text-align:left;
+    line-height: unset;
+    background: linear-gradient(to bottom, rgb(47, 96, 72), white);
+    border: 2px darkgreen solid ;
+
+   }
+/* Tamaños de textos*/
 h1{
     color: rgb(221, 231, 221);
     font-size:larger;
@@ -50,6 +79,7 @@ h1{
     margin-left: auto; 
     margin-right: auto;
     border: 2px rgb(45, 148, 86) solid;
+    border-radius: 7px;
     padding: 5px; 
 }
 h2{
@@ -61,9 +91,28 @@ h2{
     text-align: center;
     line-height: unset;
 }
+h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(47, 96, 72);
+    font-weight: bold;
+    text-align: center;
+    font-size: x-small;
+}
+h5{
+    font-family: 'Benne', serif;
+    color: rgb(221, 231, 221);
+    font-size: medium;
+    font-weight: 300;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 8px;
+}
 p{
     color: seashell;
     text-align: center;
+    margin: auto;
+    font-size: 75%;
+
 }
 .bienvenida{
     color: seashell;
@@ -75,6 +124,8 @@ p{
     border-bottom: 3px darkgreen solid;
     border-top: 3px darkgreen solid;
 }
+
+/*Home*/
 .mainPrincipal{
     display: grid;
     grid-template-columns: 70% 30%;
@@ -116,7 +167,8 @@ p{
     font-size: xx-small;
     text-align: center;
     padding: 3px;
-    margin-bottom: auto;
+    margin: auto;
+    justify-content: space-evenly;
 }
 .texto2{
     width: 100px;
@@ -124,7 +176,8 @@ p{
     font-size: xx-small;
     text-align: center;
     padding: 3px;
-    margin-bottom: auto;
+    margin: auto;
+    justify-content: space-evenly;
 
 }
 .img1{
@@ -144,32 +197,36 @@ p{
     grid-area: area3;
     background-color: rgb(103, 199, 162);
     font-family: 'Benne', serif;
-    font-size: medium;
+    font-size: xx-small;
     color: seashell;
     width: 200px;
     height: 400px;
     border:darkgreen 1px solid;
     font-size: smaller;
-    margin-bottom: auto;
+    margin: 30px;
+    padding: 0px;
     text-align: center;
-    
+    justify-content: space-evenly;
 }
-footer{
-    color: seashell;
-    font-size:medium;
-    font-style: initial;
-    font-family: 'Benne', serif;
-    text-align:left;
-    line-height: unset;
-    background: linear-gradient(to bottom, rgb(47, 96, 72), white);
-    border: 2px darkgreen solid ;
-   }
+
+/*Manos a la obra*/
+#ulmanosalaobra{
+    padding-left: 0px;
+}
 .tituloproducto{
     font-family: 'Benne', serif;
-    color:red;
-    background-color: rgb(240, 255, 254);
     border:none;
-}
+    width: 100%;
+    height: fit-content;
+    color: rgb(221, 231, 221);
+    font-size: normal;
+    font-weight: lighter;
+    font-style: normal;
+    text-align: center;
+    line-height: unset;
+    background-color: yellowgreen;
+    border-radius: 4px;
+   }
 .hacer{
     font-family: 'Benne', serif;
     color:rgb(146, 99, 99);
@@ -185,10 +242,12 @@ footer{
     align-content: center;
     width: 100%;
     height: 800px;
+    background-image: none;
 }
+/*Publicamos tu emprendimiento*/
 form{
     font-family: 'Benne', serif;
-    background-color: rgb(245, 214, 158);
+    background-color: rgb(138, 197, 204);
     display: inline-block;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -198,6 +257,7 @@ form{
     margin-right: 30%;
     border:rgb(147, 170, 189) 3PX groove ;
     border-radius: 5px;
+    align-content: center;
 }
 
 .nombreform:hover{
@@ -210,6 +270,7 @@ form{
     border:none 2PX solid ;
 }
 
+/*Agenda*/
 .tablaagenda{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style:oblique ;
@@ -221,15 +282,18 @@ form{
     align-content: center;
     width: 100%;
     height: 800px;
+    background-image: none;
 }
+/*Salud*/
 .saludimg{
     background-image:url(../imagenes/salud.png) ;
     background-position: center;
     width: 100%;
     height: 100%;
     margin-bottom: 5px;
+    background-image: none;
 }
-    
+/*Conocenos*/    
 .tablaconocenos{
     display: grid;
     grid-template-columns: 2fr 2fr 2fr;
@@ -362,8 +426,7 @@ form{
     }
 }
 
-
-
+/*Productos*/
 .producto{
     display: grid;
     grid-template-columns: 2fr 2fr 2fr 2fr;

@@ -3,8 +3,11 @@ $backgroun_fondos_body: rgb(9, 124, 107);
 $backgroun_fondos_nav_footer: rgb(47, 96, 72);
 $font_color: rgb(127, 163, 57);
 $backgroun_fondos_section_aside: rgb(103, 199, 162);
+$backgroun_fondos_contenedores: rgb(138, 197, 204);
 $font_pricipal: 'Benne', serif;
 
+/*SALUD*/
+///*BEM/
 .notassalud{
     display: flex;
     flex-direction: row;
@@ -19,7 +22,7 @@ $font_pricipal: 'Benne', serif;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(138, 197, 204);
+    background-color: $backgroun_fondos_contenedores;
     border-radius: 15px;
     .card__header{     
           width: 255px;
@@ -80,3 +83,51 @@ $font_pricipal: 'Benne', serif;
     }
 }
 
+//*AGENDA//
+//**Mixin//
+@mixin textotabla( $fuentefamily, $fuentecolor, $fuentetamano, $fuenteestilo) {
+    font-family: $fuentefamily;
+    color: $fuentecolor;
+    font-size: $fuentetamano;
+    font-style: $fuenteestilo;   
+}
+.td1, .td3 , .td5 {
+    @include textotabla( $font_pricipal, $font_color, medium, oblique)
+}
+.td2, .td4, .td6{
+    @include textotabla( Verdana, seashell, medium, italic)
+}
+
+////*Extend///
+.textobusqueda {
+    display: inline;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+  }
+.textobusqueda--estilo{
+    @extend .textobusqueda;
+    border-radius: 20px;
+    border-color: $font_color;
+    width: 50%;
+    margin-left: 250px;
+
+}
+.botonbusqueda {
+    display: inline;
+    font-weight: 400;
+    line-height: 1.5;
+    color: seashell;
+    text-align: center; 
+    font-size: 20px;
+    border-radius: 20px;
+  }
+  .boton-estilo{
+      @extend .botonbusqueda;
+      background-color: $backgroun_fondos_nav_footer;
+      border: 1px solid $font_color;
+      cursor: pointer;
+  }

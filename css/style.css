@@ -23,6 +23,7 @@ a{
 .hola{
     display: flex;
     flex-direction: row;
+    position: relative;
     color: seashell;
     text-decoration: none;
     padding-top: 7px;
@@ -255,6 +256,8 @@ form{
     padding-right: 20px;
     margin-left: 30%;
     margin-right: 30%;
+    margin-top: 10px;
+    margin-bottom: 10px;
     border:rgb(147, 170, 189) 3PX groove ;
     border-radius: 5px;
     align-content: center;

@@ -18,21 +18,28 @@
 </head>
 <body>
     <header>
-         <!-- menu en lista como pide la entrega-->   
-         <nav>
-            <ul class="hola">
-                <li class="liMenu"><a class="linkcolor" href="manos_a_la_obra.html">Manos a la obra</a></li>
-                <li class="liMenu"><a class="linkcolor" href="conocenos.html">Conocenos</a></li>
-                <li class="liMenu"><a class="linkcolor" href="productos.html">Productos</a></li>  
-                <li class="liMenu"><a class="linkcolor" href="../index.html"><img class="logo" src="../imagenes/canesyhumanos.jpg" alt="logo"></a></li>
-                <li class="liMenu"><a class="linkcolor" href="agenda.html">Agenda</a></li>
-                <li class="liMenu"><a class="linkcolor" href="salud.html">Salud</a></li>
-                <li class="liMenu"><a class="linkcolor" href="publicamosemprendi.html">Publicamos tu emprendimiento</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+            <div class="container justify-content-center">
+                <a class="navbar-brand" href="../index.html"><img src="../imagenes/canesyhumanos.jpg" alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="true" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse justify-content-center collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav nav-width justify-content-between text-center hola">
+                        <a class="limenu nav-link " href="manos_a_la_obra.html">Manos a la Obra</a>
+                        <a class="limenu nav-link" href="conocenos.html">Conocenos</a>
+                        <a class="limenu nav-link" href="productos.html">Productos</a>
+                        <a class="limenu nav-link" href="agenda.html">Agenda</a>
+                        <a class="limenu nav-link" href="salud.html">Salud</a>
+                        <a class="limenu nav-link" href="publicamosemprendi.html">Publicamos tu Emprendimiemto</a>
+                    </div>
+                </div>
+            </div>
         </nav>
         <h1>Productos</h1>
     </header>
-    <main class="producto">
+    <main class="row">
+        <div class="producto producto-media">
         <img class="compra" src="../imagenes/compra.jpg">
         <img class="compra" src="../imagenes/compra.jpg">
         <img class="compra" src="../imagenes/compra.jpg">
@@ -41,10 +48,19 @@
         <img class="compra" src="../imagenes/compra.jpg">
         <img class="compra" src="../imagenes/compra.jpg">
         <img class="compra" src="../imagenes/compra.jpg">
-        
+        </div>
     </main>
-    <footer>Comentarios de visitas:<br>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>nesciunt quae praesentium placeat beatae voluptates saepe cupiditate reiciendis aspernatur quod sed voluptas nemo reprehenderit molestiae alias, necessitatibus, est nulla odio.
+    <footer role="contentinfo">
+        <div class="row">
+            <div class="col-md-4"><img src="../imagenes/logodog.png" alt="usuario de perro">
+            </div>
+            <div class="col-md-4">
+                <p>Comentarios de visitas:<br>TU COMENTARIO ES MUY IMPORTANTE PARA NOSOTROS<br>CANES Y HUMANOS</p>
+            </div>
+            <div class="col-md-4">
+                <a target="_blank" class="linkcolor"rel="noopener noreferrer" href="http://instagram.com/los.mestizos.salgueiro"><img src="../imagenes/instagram_logo_icon_124339.png" alt="Seguinos en Instagram">Seguinos en Instagram</a>		    
+            </div>
+        </div>
     </footer>
 </body>
 </html>

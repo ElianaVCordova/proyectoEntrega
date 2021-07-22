@@ -19,63 +19,112 @@
 </head>
 <body> 
     <header>
-            <!-- menu en lista como pide la entrega-->   
-            <nav>
-                <ul class="hola">
-                    <li class="liMenu"><a class="linkcolor" href="manos_a_la_obra.html">Manos a la obra</a></li>
-                    <li class="liMenu"><a class="linkcolor" href="conocenos.html">Conocenos</a></li>
-                    <li class="liMenu"><a class="linkcolor" href="productos.html">Productos</a></li>  
-                    <li class="liMenu"><a class="linkcolor" href="../index.html"><img class="logo" src="../imagenes/canesyhumanos.jpg" alt="logo"></a></li>
-                    <li class="liMenu"><a class="linkcolor" href="agenda.html">Agenda</a></li>
-                    <li class="liMenu"><a class="linkcolor" href="salud.html">Salud</a></li>
-                    <li class="liMenu"><a class="linkcolor" href="publicamosemprendi.html">Publicamos tu emprendimiento</a></li>
-                </ul>
-            </nav>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+            <div class="container justify-content-center">
+                <a class="navbar-brand" href="../index.html"><img src="../imagenes/canesyhumanos.jpg" alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="true" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse justify-content-center collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav nav-width justify-content-between text-center hola">
+                        <a class="limenu nav-link " href="manos_a_la_obra.html">Manos a la Obra</a>
+                        <a class="limenu nav-link" href="conocenos.html">Conocenos</a>
+                        <a class="limenu nav-link" href="productos.html">Productos</a>
+                        <a class="limenu nav-link" href="agenda.html">Agenda</a>
+                        <a class="limenu nav-link" href="salud.html">Salud</a>
+                        <a class="limenu nav-link" href="publicamosemprendi.html">Publicamos tu Emprendimiemto</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
         <h1>Agenda</h1>
             <h2>Volcaremos un listado de profesionales en distintas especialidades para nuestros peludos</h2>
     </header>
     <main> 
-       <div>
+       <div class="text-center">
             <input class="textobusqueda--estilo" type="search" placeholder="Filtrar">
             <button class="boton-estilo" type="submit">Buscar</button>
        </div> 
-    <table class="tablaagenda">  
-        <tr>  
-            <th>Especialidad</th>   
-            <th>Profesional</th>   
-            <th>Telefono</th> 
-            <th>Direccion</th>
-            <th>E-mail</th>
-            <th>Pais</th>    
-        </tr> 
-        <tr>  
-            <td class="td1">Fila 2 - Columna 1</td>   
-            <td class="td2">Fila 2 - Columna 2</td>   
-            <td class="td3">Fila 2 - Columna 3</td>  
-            <td class="td4">Fila 2 - Columna 4</td>   
-            <td class="td5">Fila 2 - Columna 5</td>   
-            <td class="td6">Fila 2 - Columna 6</td>
-        </tr>
-        <tr>  
-            <td class="td1">Fila 3 - Columna 1</td>   
-            <td class="td2">Fila 3 - Columna 2</td>   
-            <td class="td3">Fila 3 - Columna 3</td>  
-            <td class="td4">Fila 3 - Columna 4</td>   
-            <td class="td5">Fila 3 - Columna 5</td>   
-            <td class="td6">Fila 3 - Columna 6</td>
-        </tr>
-        <tr>  
-            <td class="td1">Fila 4 - Columna 1</td>   
-            <td class="td2">Fila 4 - Columna 2</td>   
-            <td class="td3">Fila 4 - Columna 3</td>  
-            <td class="td4">Fila 4 - Columna 4</td>   
-            <td class="td5">Fila 4 - Columna 5</td>   
-            <td class="td6">Fila 4 - Columna 6</td>
-        </tr>
-    </table>
+       <div class="table-responsive-sm">
+        <table class="table">
+            <tr>  
+                <th>Especialidad</th>   
+                <th>Profesional</th>   
+                <th>Telefono</th> 
+                <th>Direccion</th>
+                <th>E-mail</th>
+                <th>Pais</th>    
+            </tr> 
+            <tr>  
+                <td class="td1">Veterinario patológo</td>   
+                <td class="td2">Leonardo Minatel</td>   
+                <td class="td3">---</td>  
+                <td class="td4">---</td>   
+                <td class="td5">lminatel@outlook.com</td>   
+                <td class="td6">Buenos Aires,Argentina</td>
+            </tr>
+            <tr>  
+                <td class="td1">Cardiología Veterinaria</td>   
+                <td class="td2">Gustavo Alejandro Pompili</td>   
+                <td class="td3">15-6506-1664</td>  
+                <td class="td4">---</td>   
+                <td class="td5">gapompili@hotmail.com</td>   
+                <td class="td6">Buenos Aires,Argentina</td>
+            </tr>
+            <tr>  
+                <td class="td1">Cardiología Veterinaria</td>   
+                <td class="td2">Gabriela A. Mammana</td>   
+                <td class="td3">15-5513-5871</td>  
+                <td class="td4">---</td>   
+                <td class="td5">gabimammana@gmail.com</td>   
+                <td class="td6">Buenos Aires,Argentina</td>
+            </tr>
+            <tr>  
+                <td class="td1">Gastroenterología Veterinaria</td>   
+                <td class="td2">Leonardo R. Ortemberg</td>   
+                <td class="td3">15-5635-2392<br>011 4566-3511</td>  
+                <td class="td4">Pasaje Mataco 1481</td>   
+                <td class="td5">---</td>   
+                <td class="td6">Buenos Aires,Argentina</td>
+            </tr>
+            <tr>  
+                <td class="td1">Gastroenterología Veterinaria</td>   
+                <td class="td2">Silvia M. Feijoo</td>   
+                <td class="td3">011 4574-3894</td>  
+                <td class="td4">Av. Salvador M. del Carril 2366</td>   
+                <td class="td5">---</td>   
+                <td class="td6">Buenos Aires,Argentina</td>
+            </tr>
+            <tr>  
+                <td class="td1">Centro Veterinario de<br>Diagnostico por Imagenes</td>   
+                <td class="td2">---</td>   
+                <td class="td3">011 4924-1773</td>  
+                <td class="td4">Constitución 3726</td>   
+                <td class="td5">---</td>   
+                <td class="td6">Buenos Aires,Argentina</td>
+            </tr>
+            <tr>  
+                <td class="td1">Ecografia Veterinaria</td>   
+                <td class="td2">Federico A. Aste</td>   
+                <td class="td3">15-4938-7686</td>  
+                <td class="td4">---</td>   
+                <td class="td5">---</td>   
+                <td class="td6">Buenos Aires,Argentina</td>
+            </tr>
+         </table>
+      </div>
     </main>
-    <footer>Comentarios de visitas:<br>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>nesciunt quae praesentium placeat beatae voluptates saepe cupiditate reiciendis aspernatur quod sed voluptas nemo reprehenderit molestiae alias, necessitatibus, est nulla odio.
+    <footer role="contentinfo">
+        <div class="row">
+            <div class="col-md-4"><img src="../imagenes/logodog.png" alt="usuario de perro">
+            </div>
+            <div class="col-md-4">
+                <p>Comentarios de visitas:<br>TU COMENTARIO ES MUY IMPORTANTE PARA NOSOTROS<br>CANES Y HUMANOS</p>
+            </div>
+            <div class="col-md-4">
+                <a target="_blank" class="linkcolor"rel="noopener noreferrer" href="http://instagram.com/los.mestizos.salgueiro"><img src="../imagenes/instagram_logo_icon_124339.png" alt="Seguinos en Instagram">Seguinos en Instagram</a>		    
+            </div>
+        </div>
     </footer>
 </body>
 </html>

@@ -9,6 +9,9 @@
     content="Información sobre perros y humanos, actividades, manualidades, salud, agenda de profesionales.">
     <meta name="keywords"
     content="perro,perrito,dog,pet,mascota,juguete,toy,jugar,play,ponchito,abrigo,pasear,salud,casero,natural,primera,veterinario,comida,aprender,enseñar,castracion">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="css/style.css">   
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,46 +19,60 @@
 </head>
 <body>
     <header>
-        <!-- menu en lista como pide la entrega-->   
-        <nav>
-            <ul class="hola">
-                <li class="liMenu"><a class="linkcolor" href="paginas/manos_a_la_obra.html">Manos a la obra</a></li>
-                <li class="liMenu"><a class="linkcolor" href="paginas/conocenos.html">Conocenos</a></li>
-                <li class="liMenu"><a class="linkcolor" href="paginas/productos.html">Productos</a></li>  
-                <li class="liMenu"><a class="linkcolor" href="index.html"><img class="logo" src="imagenes/canesyhumanos.jpg" alt="logo"></a></li>
-                <li class="liMenu"><a class="linkcolor" href="paginas/agenda.html">Agenda</a></li>
-                <li class="liMenu"><a class="linkcolor" href="paginas/salud.html">Salud</a></li>
-                <li class="liMenu"><a class="linkcolor" href="paginas/publicamosemprendi.html">Publicamos tu emprendimiento</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+            <div class="container justify-content-center">
+                <a class="navbar-brand" href="../index.html"><img src="../imagenes/canesyhumanos.jpg" alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="true" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse justify-content-center collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav nav-width justify-content-between text-center hola">
+                        <a class="limenu nav-link " href="/paginas/manos_a_la_obra.html">Manos a la Obra</a>
+                        <a class="limenu nav-link" href="/paginas/conocenos.html">Conocenos</a>
+                        <a class="limenu nav-link" href="/paginas/productos.html">Productos</a>
+                        <a class="limenu nav-link" href="/paginas/agenda.html">Agenda</a>
+                        <a class="limenu nav-link" href="/paginas/salud.html">Salud</a>
+                        <a class="limenu nav-link" href="/paginas/publicamosemprendi.html">Publicamos tu Emprendimiemto</a>
+                    </div>
+                </div>
+            </div>
         </nav>
     </header>
-    <main>        
+    <main class="row">        
         <h2 class="bienvenida"> Encontra todo sobre perros , sus humanos, actividades, salud</h2>
-        <div class="mainPrincipal">
+        <div class="mainPrincipal mainprincipal-media">
             <article class="ultimapubli">
-                <a class="linkcolor" href="paginas/ultimapubli.html"><h3>Ultima publicacion</h3></a>
-                <div><p class="texto1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est illo ex reiciendis sapiente velit quo vero nisi, id officia quis sit maiores magni libero eos veritatis eius et expedita magnam?</p></div>
-                <img class="img1" src="./imagenes/publicacion.jpg" alt="publicacionreciente">
+                <img class="img1" src="./imagenes/publicacion.png" alt="rostro perrita">
+                <a class="linkcolor" href="paginas/ultimapubli.html"><h3 class="article">Ultima publicacion</h3>
+                <p>Salud<br>CASA: Lugar seguro para tu cachorro/perro</p></a>
+                
             </article>
             <article class="lugares">
-                <a class="linkcolor" href="paginas/lugaresparavisitar.html"><h3>Lugares para visitar</h3></a>
-                <div><p class="texto2"> Recomendaciones para que disfruten juntos.</p></div>
-                <img class="img2" src="./imagenes/lugar.jpg" alt="lugar">
+                <img class="img2" src="./imagenes/lugar.png" alt="perros en parque">
+                <a class="linkcolor" href="paginas/lugaresparavisitar.html"><h3 class="article">Lugares para visitar</h3>
+                <p> Recomendaciones para que disfruten juntos.</p></a>
+                
             </article>
-            <aside class="publicacion"><h3>Publicaciones likeadas de otra plataforma</h3>
-                <a class="linkcolor" href="https://www.patitapatita.com/">PATITA PATITA</a>
-                <div><p>Pagina</p><br>
-                    <p>Pagina</p><br>
-                    <p>Pagina</p><br>
-                    <p>Pagina</p><br>
-                    <p>Pagina</p><br>
-                    <p>Pagina</p><br>
+            <aside class="aside"><h3 class="article">Publicaciones likeadas de otra plataforma</h3>
+                <div>
+                <a class="linkcolor" href="https://www.instagram.com/dejandohuellitasfotografia/"><img class="asidelogo" src="imagenes/dejandohuellitas.PNG" alt="dejandohuellitas"></a>
+                <a class="linkcolor" href="https://beacons.page/dragoyarya"><img class="asidelogo" src="imagenes/dragoyarya.PNG" alt="dragoyarya"></a>
+                <a class="linkcolor" href="https://www.patitapatita.com/"><img class="asidelogo" src="imagenes/patitapatita.PNG" alt="patitapatita"></a>
                 </div>
             </aside>
         </div>
     </main>
-    <footer>Comentarios de visitas:<br>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>nesciunt quae praesentium placeat beatae voluptates saepe cupiditate reiciendis aspernatur quod sed voluptas nemo reprehenderit molestiae alias, necessitatibus, est nulla odio.
+    <footer role="contentinfo">
+        <div class="row">
+            <div class="col-md-4"><img src="imagenes/logodog.png" alt="usuario de perro">
+            </div>
+            <div class="col-md-4">
+                <p>Comentarios de visitas:<br>TU COMENTARIO ES MUY IMPORTANTE PARA NOSOTROS<br>CANES Y HUMANOS</p>
+            </div>
+            <div class="col-md-4">
+                <a target="_blank" class="linkcolor"rel="noopener noreferrer" href="http://instagram.com/los.mestizos.salgueiro"><img src="imagenes/instagram_logo_icon_124339.png" alt="Seguinos en Instagram">Seguinos en Instagram</a>		    
+            </div>
+        </div>
     </footer>
 </body>
 </html>

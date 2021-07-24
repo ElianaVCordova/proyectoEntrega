@@ -157,6 +157,12 @@ p{
     margin: 30px;
     margin-left: 0px;
 }
+.flyer{
+    border-radius: 10px;
+    width: max-content;
+    height: auto;
+    justify-content: center;
+}
 .texto1{
     width: 100px;
     height: 120px; 

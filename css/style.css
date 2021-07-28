@@ -399,44 +399,44 @@ form{
 }
 @keyframes integrantes{
     0%{
-        background-image: url(../imagenes/hum1.PNG);
+        background-image: url(../imagenes/hum1.png);
         background-repeat:no-repeat;
         background-size:contain;    
        	transform: rotate(0deg);
     }
     16%{
-        background-image: url(../imagenes/hum2.PNG);
+        background-image: url(../imagenes/hum2.png);
         background-repeat:no-repeat;
         background-size:contain;
         transform: rotate(10deg);
     }
     32%{
-        background-image: url(../imagenes/theo.PNG);
+        background-image: url(../imagenes/theo.png);
         background-repeat:no-repeat;
         background-size:contain;
         transform: rotate(20deg);
     }
     48%{
-        background-image: url(../imagenes/sakura.PNG);
+        background-image: url(../imagenes/sakura.png);
         background-repeat:no-repeat;
         background-size:contain;
         transform: rotate(30deg);
     }
     64%{
-        background-image: url(../imagenes/luna.PNG);
+        background-image: url(../imagenes/luna.png);
         background-repeat:no-repeat;
         background-size:contain;
         transform:rotate(40deg);
     }
 
     80%{
-        background-image: url(../imagenes/rama.PNG);
+        background-image: url(../imagenes/rama.png);
         background-repeat:no-repeat;
         background-size:contain;
         transform:rotate(30deg);
     }
     100%{
-        background-image: url(../imagenes/mora.PNG);
+        background-image: url(../imagenes/mora.png);
         background-repeat:no-repeat;
         background-size:contain;
         transform:rotate(20deg);
@@ -516,6 +516,9 @@ form{
     *{
         margin: 0px;
         padding: 0px;
+    }
+    .mainPrincipal{
+        background-image: none;
     }
     .ultimapubli, .lugares, .aside{
         display: row;

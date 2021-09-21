@@ -29,7 +29,8 @@
       margin-left: 0px;
       justify-content: space-evenly; }
       .contenedor .card__header .card__figure .card__image {
-        border-radius: 15px; }
+        border-radius: 15px;
+        padding: 3px; }
   .contenedor .card__body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: xx-small;
